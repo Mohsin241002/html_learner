@@ -28,15 +28,23 @@
 
         }
 
+        nav a:hover {
+            color: rgb(191, 255, 175);
+            text-decoration: underline;
+        }
 
         .search {
             float: right;
             color: white;
             padding: 11px 12px;
             margin: 0px 50px;
+        }
 
-
-
+        .nav input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
         }
     </style>
 </head>
@@ -44,10 +52,10 @@
 <body>
     <nav class="nav">
         <ul class="main">
-            <li><a href="#">home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
             <div class="search">
                 <input type="text" name="search" id="search" placeholder="Search this website">
             </div>
